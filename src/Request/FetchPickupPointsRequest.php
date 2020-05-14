@@ -18,6 +18,7 @@ class FetchPickupPointsRequest
      * @var ConfigProvider
      */
     private $configProvider;
+
     /**
      * @var PickupPointFactory
      */

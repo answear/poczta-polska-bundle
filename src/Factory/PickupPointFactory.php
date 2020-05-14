@@ -6,6 +6,7 @@ namespace Answear\PocztaPolskaBundle\Factory;
 
 use Answear\PocztaPolskaBundle\DTO\PickupPoint;
 use Answear\PocztaPolskaBundle\Enum\PickupPointTypeEnum;
+use Answear\PocztaPolskaBundle\ValueObject\Coordinates;
 use Webmozart\Assert\Assert;
 
 class PickupPointFactory
@@ -66,8 +67,7 @@ class PickupPointFactory
 
         return new PickupPoint(
             (string) $pickupPoint[self::ID],
-            (string) $pickupPoint[self::COORDINATE_Y],
-            (string) $pickupPoint[self::COORDINATE_X],
+            new Coordinates((float) $pickupPoint[self::COORDINATE_Y], (float) $pickupPoint[self::COORDINATE_X]),
             (string) $pickupPoint[self::VOIVODESHIP],
             (string) $pickupPoint[self::POVIAT],
             (string) $pickupPoint[self::COMMUNE],

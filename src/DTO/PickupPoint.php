@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Answear\PocztaPolskaBundle\DTO;
 
+use Answear\PocztaPolskaBundle\ValueObject\Coordinates;
+
 class PickupPoint
 {
     /**
@@ -12,14 +14,9 @@ class PickupPoint
     public $id;
 
     /**
-     * @var string
+     * @var Coordinates
      */
-    public $coordinateY;
-
-    /**
-     * @var string
-     */
-    public $coordinateX;
+    public $coordinates;
 
     /**
      * @var string
@@ -78,8 +75,7 @@ class PickupPoint
 
     public function __construct(
         string $id,
-        string $coordinateY,
-        string $coordinateX,
+        Coordinates $coordinates,
         string $voivodeship,
         string $poviat,
         string $commune,
@@ -93,8 +89,7 @@ class PickupPoint
         string $type
     ) {
         $this->id = $id;
-        $this->coordinateY = $coordinateY;
-        $this->coordinateX = $coordinateX;
+        $this->coordinates = $coordinates;
         $this->voivodeship = $voivodeship;
         $this->poviat = $poviat;
         $this->commune = $commune;

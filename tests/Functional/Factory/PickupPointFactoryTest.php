@@ -6,6 +6,7 @@ namespace Answear\PocztaPolskaBundle\Tests\Functional\Factory;
 
 use Answear\PocztaPolskaBundle\DTO\PickupPoint;
 use Answear\PocztaPolskaBundle\Factory\PickupPointFactory;
+use Answear\PocztaPolskaBundle\ValueObject\Coordinates;
 use PHPUnit\Framework\TestCase;
 
 class PickupPointFactoryTest extends TestCase
@@ -32,8 +33,7 @@ class PickupPointFactoryTest extends TestCase
 
         $pickupPoints[] = new PickupPoint(
             '232385',
-            '50.682199',
-            '16.608786',
+            new Coordinates(50.682199, 16.608786),
             'DOLNOŚLĄSKIE',
             'dzierżoniowski',
             'Bielawa',
@@ -48,8 +48,7 @@ class PickupPointFactoryTest extends TestCase
         );
         $pickupPoints[] = new PickupPoint(
             '556577',
-            '50.695338',
-            '16.631300',
+            new Coordinates(50.695338, 16.631300),
             'DOLNOŚLĄSKIE',
             'dzierżoniowski',
             'Bielawa',
@@ -65,8 +64,7 @@ class PickupPointFactoryTest extends TestCase
 
         $pickupPoints[] = new PickupPoint(
             '232404',
-            '50.683947',
-            '16.622841',
+            new Coordinates(50.683947, 16.622841),
             'DOLNOŚLĄSKIE',
             'dzierżoniowski',
             'Bielawa',
