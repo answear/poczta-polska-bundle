@@ -1,0 +1,11 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Answear\PocztaPolskaBundle\Service\ConfigProvider:
+        arguments:
+            $tempDir: '%kernel.cache_dir%'
+    Answear\PocztaPolskaBundle\Request\FetchPickupPointsRequest: ~
+    Answear\PocztaPolskaBundle\Factory\PickupPointFactory: ~
