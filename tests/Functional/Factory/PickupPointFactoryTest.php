@@ -20,7 +20,6 @@ class PickupPointFactoryTest extends TestCase
 
         $pickupPoints = $factory->createArrayFromXml(__DIR__ . '/../../DataFixtures/XML/pickupPoints.xml');
 
-        $this->assertCount(3, $pickupPoints);
         $this->assertEquals($this->getExpectedPickupPoints(), $pickupPoints);
     }
 
