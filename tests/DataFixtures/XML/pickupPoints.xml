@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane>
+    <r pni="232385" y="50.682199" x="16.608786" wojewodztwo="DOLNOŚLĄSKIE" powiat="dzierżoniowski" gmina="Bielawa"
+       nazwa="UP Bielawa 1" kod="58-260" miejscowosc="Bielawa" ulica="ul. Piastowska 16"
+       telefon="885 900 649, 74 833 44 47"
+       opis="dni robocze: 08:00-18:00#soboty: 08:00-14:00#niedziele i święta: placówka nieczynna#Placówka dostosowana do potrzeb osób niepełnosprawnych.#"
+       stan="" typ="POCZTA"/>
+    <r pni="556577" y="50.695338" x="16.631300" wojewodztwo="DOLNOŚLĄSKIE" powiat="dzierżoniowski" gmina="Bielawa"
+       nazwa="FUP Bielawa 1" kod="58-260" miejscowosc="Bielawa" ulica="ul. Stefana Żeromskiego 21"
+       telefon="74 833 44 45 #jedn. nadrzędna: UP Bielawa 1#tel.: 885 900 649, 74 833 44 47"
+       opis="dni robocze: Pon.: 09:00-16:00 Wt.: 09:00-16:00 Śr.: 09:00-16:00 Czw.: 09:00-16:00 Pt.: 13:00-20:00#soboty: placówka nieczynna#niedziele i święta: placówka nieczynna#Placówka dostosowana do potrzeb osób niepełnosprawnych.#"
+       stan="" typ="POCZTA"/>
+    <r pni="232404" y="50.683947" x="16.622841" wojewodztwo="DOLNOŚLĄSKIE" powiat="dzierżoniowski" gmina="Bielawa"
+       nazwa="UP Bielawa 4" kod="58-263" miejscowosc="Bielawa" ulica="ul. Jana III Sobieskiego 17"
+       telefon="74 833 44 40"
+       opis="dni robocze: Pon.: 08:00-18:00 Wt.: 08:00-18:00 Śr.: 08:00-18:00 Czw.: 08:00-18:00 Pt.: 08:00-20:00#soboty: placówka nieczynna#niedziele i święta: placówka nieczynna#Placówka dostosowana do potrzeb osób niepełnosprawnych.#"
+       stan="" typ="POCZTA"/>
+</dane>
