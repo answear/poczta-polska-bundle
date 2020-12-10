@@ -46,8 +46,10 @@ class PickupPointFactory
         return $pickupPoints;
     }
 
-    private function create(\SimpleXMLElement $pickupPoint): PickupPoint
+    private function create(\SimpleXMLElement $pickupPointXml): PickupPoint
     {
+        $pickupPoint = \iterator_to_array($pickupPointXml->attributes());
+
         Assert::keyExists($pickupPoint, self::ID);
         Assert::keyExists($pickupPoint, self::COORDINATE_Y);
         Assert::keyExists($pickupPoint, self::COORDINATE_X);
