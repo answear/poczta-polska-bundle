@@ -43,5 +43,10 @@
     "grumphp": {
       "config-default-path": "grumphp.yaml"
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "phpro/grumphp": true
+    }
   }
 }
